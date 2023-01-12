@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30FF685829707DE000994EFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FF685729707DE000994EFA /* AppDelegate.swift */; };
+		30FF685A29707DE000994EFA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FF685929707DE000994EFA /* SceneDelegate.swift */; };
+		30FF685C29707DE000994EFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FF685B29707DE000994EFA /* ViewController.swift */; };
+		30FF685F29707DE000994EFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30FF685D29707DE000994EFA /* Main.storyboard */; };
+		30FF686129707DE100994EFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30FF686029707DE100994EFA /* Assets.xcassets */; };
+		30FF686429707DE100994EFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30FF686229707DE100994EFA /* LaunchScreen.storyboard */; };
+		30FF686F29707DE100994EFA /* MobileMapperHackswitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FF686E29707DE100994EFA /* MobileMapperHackswitchTests.swift */; };
+		30FF687929707DE100994EFA /* MobileMapperHackswitchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FF687829707DE100994EFA /* MobileMapperHackswitchUITests.swift */; };
+		30FF687B29707DE100994EFA /* MobileMapperHackswitchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FF687A29707DE100994EFA /* MobileMapperHackswitchUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30FF686B29707DE100994EFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30FF684C29707DE000994EFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30FF685329707DE000994EFA;
+			remoteInfo = MobileMapperHackswitch;
+		};
+		30FF687529707DE100994EFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30FF684C29707DE000994EFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30FF685329707DE000994EFA;
+			remoteInfo = MobileMapperHackswitch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30FF685429707DE000994EFA /* MobileMapperHackswitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileMapperHackswitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30FF685729707DE000994EFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30FF685929707DE000994EFA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		30FF685B29707DE000994EFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30FF685E29707DE000994EFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30FF686029707DE100994EFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30FF686329707DE100994EFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30FF686529707DE100994EFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30FF686A29707DE100994EFA /* MobileMapperHackswitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileMapperHackswitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30FF686E29707DE100994EFA /* MobileMapperHackswitchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileMapperHackswitchTests.swift; sourceTree = "<group>"; };
+		30FF687429707DE100994EFA /* MobileMapperHackswitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileMapperHackswitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30FF687829707DE100994EFA /* MobileMapperHackswitchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileMapperHackswitchUITests.swift; sourceTree = "<group>"; };
+		30FF687A29707DE100994EFA /* MobileMapperHackswitchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileMapperHackswitchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30FF685129707DE000994EFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30FF686729707DE100994EFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30FF687129707DE100994EFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30FF684B29707DE000994EFA = {
+			isa = PBXGroup;
+			children = (
+				30FF685629707DE000994EFA /* MobileMapperHackswitch */,
+				30FF686D29707DE100994EFA /* MobileMapperHackswitchTests */,
+				30FF687729707DE100994EFA /* MobileMapperHackswitchUITests */,
+				30FF685529707DE000994EFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30FF685529707DE000994EFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30FF685429707DE000994EFA /* MobileMapperHackswitch.app */,
+				30FF686A29707DE100994EFA /* MobileMapperHackswitchTests.xctest */,
+				30FF687429707DE100994EFA /* MobileMapperHackswitchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30FF685629707DE000994EFA /* MobileMapperHackswitch */ = {
+			isa = PBXGroup;
+			children = (
+				30FF685729707DE000994EFA /* AppDelegate.swift */,
+				30FF685929707DE000994EFA /* SceneDelegate.swift */,
+				30FF685B29707DE000994EFA /* ViewController.swift */,
+				30FF685D29707DE000994EFA /* Main.storyboard */,
+				30FF686029707DE100994EFA /* Assets.xcassets */,
+				30FF686229707DE100994EFA /* LaunchScreen.storyboard */,
+				30FF686529707DE100994EFA /* Info.plist */,
+			);
+			path = MobileMapperHackswitch;
+			sourceTree = "<group>";
+		};
+		30FF686D29707DE100994EFA /* MobileMapperHackswitchTests */ = {
+			isa = PBXGroup;
+			children = (
+				30FF686E29707DE100994EFA /* MobileMapperHackswitchTests.swift */,
+			);
+			path = MobileMapperHackswitchTests;
+			sourceTree = "<group>";
+		};
+		30FF687729707DE100994EFA /* MobileMapperHackswitchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30FF687829707DE100994EFA /* MobileMapperHackswitchUITests.swift */,
+				30FF687A29707DE100994EFA /* MobileMapperHackswitchUITestsLaunchTests.swift */,
+			);
+			path = MobileMapperHackswitchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30FF685329707DE000994EFA /* MobileMapperHackswitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30FF687E29707DE100994EFA /* Build configuration list for PBXNativeTarget "MobileMapperHackswitch" */;
+			buildPhases = (
+				30FF685029707DE000994EFA /* Sources */,
+				30FF685129707DE000994EFA /* Frameworks */,
+				30FF685229707DE000994EFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobileMapperHackswitch;
+			productName = MobileMapperHackswitch;
+			productReference = 30FF685429707DE000994EFA /* MobileMapperHackswitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30FF686929707DE100994EFA /* MobileMapperHackswitchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30FF688129707DE100994EFA /* Build configuration list for PBXNativeTarget "MobileMapperHackswitchTests" */;
+			buildPhases = (
+				30FF686629707DE100994EFA /* Sources */,
+				30FF686729707DE100994EFA /* Frameworks */,
+				30FF686829707DE100994EFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30FF686C29707DE100994EFA /* PBXTargetDependency */,
+			);
+			name = MobileMapperHackswitchTests;
+			productName = MobileMapperHackswitchTests;
+			productReference = 30FF686A29707DE100994EFA /* MobileMapperHackswitchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30FF687329707DE100994EFA /* MobileMapperHackswitchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30FF688429707DE100994EFA /* Build configuration list for PBXNativeTarget "MobileMapperHackswitchUITests" */;
+			buildPhases = (
+				30FF687029707DE100994EFA /* Sources */,
+				30FF687129707DE100994EFA /* Frameworks */,
+				30FF687229707DE100994EFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30FF687629707DE100994EFA /* PBXTargetDependency */,
+			);
+			name = MobileMapperHackswitchUITests;
+			productName = MobileMapperHackswitchUITests;
+			productReference = 30FF687429707DE100994EFA /* MobileMapperHackswitchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30FF684C29707DE000994EFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					30FF685329707DE000994EFA = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					30FF686929707DE100994EFA = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 30FF685329707DE000994EFA;
+					};
+					30FF687329707DE100994EFA = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 30FF685329707DE000994EFA;
+					};
+				};
+			};
+			buildConfigurationList = 30FF684F29707DE000994EFA /* Build configuration list for PBXProject "MobileMapperHackswitch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30FF684B29707DE000994EFA;
+			productRefGroup = 30FF685529707DE000994EFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30FF685329707DE000994EFA /* MobileMapperHackswitch */,
+				30FF686929707DE100994EFA /* MobileMapperHackswitchTests */,
+				30FF687329707DE100994EFA /* MobileMapperHackswitchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30FF685229707DE000994EFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30FF686429707DE100994EFA /* LaunchScreen.storyboard in Resources */,
+				30FF686129707DE100994EFA /* Assets.xcassets in Resources */,
+				30FF685F29707DE000994EFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30FF686829707DE100994EFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30FF687229707DE100994EFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30FF685029707DE000994EFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30FF685C29707DE000994EFA /* ViewController.swift in Sources */,
+				30FF685829707DE000994EFA /* AppDelegate.swift in Sources */,
+				30FF685A29707DE000994EFA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30FF686629707DE100994EFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30FF686F29707DE100994EFA /* MobileMapperHackswitchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30FF687029707DE100994EFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30FF687B29707DE100994EFA /* MobileMapperHackswitchUITestsLaunchTests.swift in Sources */,
+				30FF687929707DE100994EFA /* MobileMapperHackswitchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30FF686C29707DE100994EFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30FF685329707DE000994EFA /* MobileMapperHackswitch */;
+			targetProxy = 30FF686B29707DE100994EFA /* PBXContainerItemProxy */;
+		};
+		30FF687629707DE100994EFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30FF685329707DE000994EFA /* MobileMapperHackswitch */;
+			targetProxy = 30FF687529707DE100994EFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30FF685D29707DE000994EFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30FF685E29707DE000994EFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30FF686229707DE100994EFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30FF686329707DE100994EFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30FF687C29707DE100994EFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30FF687D29707DE100994EFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30FF687F29707DE100994EFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25L3LUZSY5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MobileMapperHackswitch/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FLJP.MobileMapperHackswitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30FF688029707DE100994EFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25L3LUZSY5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MobileMapperHackswitch/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FLJP.MobileMapperHackswitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		30FF688229707DE100994EFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25L3LUZSY5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FLJP.MobileMapperHackswitchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobileMapperHackswitch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MobileMapperHackswitch";
+			};
+			name = Debug;
+		};
+		30FF688329707DE100994EFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25L3LUZSY5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FLJP.MobileMapperHackswitchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobileMapperHackswitch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MobileMapperHackswitch";
+			};
+			name = Release;
+		};
+		30FF688529707DE100994EFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25L3LUZSY5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FLJP.MobileMapperHackswitchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MobileMapperHackswitch;
+			};
+			name = Debug;
+		};
+		30FF688629707DE100994EFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25L3LUZSY5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FLJP.MobileMapperHackswitchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MobileMapperHackswitch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30FF684F29707DE000994EFA /* Build configuration list for PBXProject "MobileMapperHackswitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30FF687C29707DE100994EFA /* Debug */,
+				30FF687D29707DE100994EFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30FF687E29707DE100994EFA /* Build configuration list for PBXNativeTarget "MobileMapperHackswitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30FF687F29707DE100994EFA /* Debug */,
+				30FF688029707DE100994EFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30FF688129707DE100994EFA /* Build configuration list for PBXNativeTarget "MobileMapperHackswitchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30FF688229707DE100994EFA /* Debug */,
+				30FF688329707DE100994EFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30FF688429707DE100994EFA /* Build configuration list for PBXNativeTarget "MobileMapperHackswitchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30FF688529707DE100994EFA /* Debug */,
+				30FF688629707DE100994EFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30FF684C29707DE000994EFA /* Project object */;
+}
